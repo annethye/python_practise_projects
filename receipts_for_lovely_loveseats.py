@@ -22,7 +22,6 @@ luxurious_lamp_price = 52.15
 # Defining a sales tax of 8.8%
 sales_tax = 0.088
 
-
 # Initialising a variable to keep a running tally of the customer's expenses
 customer_one_total = 0
 
