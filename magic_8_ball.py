@@ -32,12 +32,14 @@ answer = ''
 # In order for the answer to be different each time we run the program, we will utilise randomly generated values.
 # Generate a random number between 1 and 12
 random_number = random.randint(1, 12)
+
 # Testing if random numbers are being generated:
 #print(random_number)
 
 
 # Using if/elif/else statements to assign different magic 8 ball answers for each randomly generated value
 # 12 fortunes defined
+
 if random_number == 1:
     answer = 'Yes - definitely' 
 elif random_number == 2:
@@ -71,7 +73,6 @@ else:
 # We ideally want our output to have the following format: 
 # [Name] asks: [Question]
 # Magic 8-Ball’s answer: [Answer]
-
 while not question:
     # The question is an empty string, so let's warn and force the user to provide a question
     print('Empty string detected: Outlook not verbose.')
