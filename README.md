@@ -8,11 +8,13 @@ This repository contains my solutions to the practise projects provided in the 3
 [Block Letters](block_letters.py)         -  Ascii Art
 
 [Receipts for Lovely Loveseats](receipts_for_lovely_loveseats.py)  -  Receipt system for the furniture store Lovely Loveseats
+- strings and numbers to create and update variables. We were able to print out an itemized list and a total cost for our customer. Lovely!
 
 ### Control Flow
-[Magic 8-Ball](.py)
+[Magic 8-Ball](magic_8_ball.py) control flow, ascii art, random module
 
 [Sal's Shipping](.py)
+or Sal’s Shippers that calculates the cheapest shipping method based on package weight, comparing ground, premium, and drone options to give customers the best deal.
 
 
 ### Lists
