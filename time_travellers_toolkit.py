@@ -45,7 +45,6 @@ cost = base_cost + cost_multiplier * years_travelled
 destination_possibilities = ['Paris', 'New York', 'London', 'Sydney', 'Cairo']
 destination = choice(destination_possibilities)
 
-
 # Generate time travel message using the function from the custom_module:
 print(custom_module.generate_time_travel_message(target_year, destination, cost))
 

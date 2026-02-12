@@ -27,7 +27,7 @@ with open('passwords.csv') as password_file:
     # Add each username to the list of compromised users
     compromised_users.append(password_row['Username'])
 
-# print(compromised_users)
+print(compromised_users)
 # ['jean49', 'haydenashley', 'michaelastephens', 'denisephillips', 'andrew24', 'kaylaabbott', 'tmartinez', 
 # 'mholden', 'randygilbert', 'watsonlouis', 'mdavis', 'patrickprice', 'kgriffith', 'hannasarah', 'xaviermartin',
 #  'hrodriguez', 'erodriguez', 'danielleclark', 'timothy26', 'elizabeth19']
