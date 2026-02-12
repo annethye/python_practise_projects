@@ -17,7 +17,6 @@ print('''
       
 ''')
 
-
 # Name of person asking the Magic 8-Ball
 name = input('What is your name: ' )
 print('\n' + 'The cosmos acknowledges your presence ' + name + '\n')
@@ -34,12 +33,10 @@ answer = ''
 random_number = random.randint(1, 12)
 
 # Testing if random numbers are being generated:
-#print(random_number)
-
+# print(random_number)
 
 # Using if/elif/else statements to assign different magic 8 ball answers for each randomly generated value
 # 12 fortunes defined
-
 if random_number == 1:
     answer = 'Yes - definitely' 
 elif random_number == 2:
@@ -67,7 +64,6 @@ elif random_number == 12:
 else:
     # In case the number is accidentally assigned a value outside of our range.
     answer = 'Error'
-
 
 # Print Statements
 # We ideally want our output to have the following format: 
@@ -97,11 +93,10 @@ Ideas for improvement:
 - f-string formatting
 - Add more ascii art
 - Import time and add theatrical pauses 
-'''
 
-'''
-The following is the solution to the codecademy exercise. Remember name and question are not obtained by
-user input and this is how we deal with empty strings there:
+Slight difference in implementation between the above and the codecademy exercise. 
+In codecademy name and question are not obtained by user input so this is how empty
+strings are dealt with:
 
 if not question:
     print('The Magic 8-Ball cannot provide a fortune unless you ask it something.')
@@ -110,6 +105,6 @@ elif not name:
     print('Magic 8-Ball\'s answer: ' + answer)
 else:
     print(name + ' asks: ' + question)
-    # Magic 8-Ball’s answer: [Answer]
+    # Magic 8-Ball's answer: [Answer]
     print('Magic 8-Ball\'s answer: ' + answer)
 '''

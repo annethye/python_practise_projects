@@ -1,5 +1,6 @@
 '''
 Gradebook
+
 You are a student and you are trying to organize your subjects and grades using Python. 
 Let's explore what we've learned about lists to organize your subjects and scores.
 '''
@@ -42,4 +43,5 @@ print(gradebook)
 # Create a new variable full_gradebook that combines both last_semester_gradebook and gradebook
 full_gradebook = last_semester_gradebook + gradebook
 print(full_gradebook)
-# [['politics', 80], ['latin', 96], ['dance', 97], ['architecture', 65], ['physics', 98], ['calculus', 97], ['poetry', 'Pass'], ['history', 88], ['visual arts', 98]]
+# [['politics', 80], ['latin', 96], ['dance', 97], ['architecture', 65], ['physics', 98], ['calculus', 97], 
+# ['poetry', 'Pass'], ['history', 88], ['visual arts', 98]]

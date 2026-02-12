@@ -1,12 +1,11 @@
 '''
 Sal's Shipping
 
-Sal runs the biggest shipping company in the tri-county area, Sal's Shippers. Sal wants to make sure that every single one of his customers has the best, and most affordable experience shipping their packages.
+Sal runs the biggest shipping company in the tri-county area, Sal's Shippers. 
+Sal wants to make sure that every single one of his customers has the best, and most affordable experience shipping their packages.
 
 This program will take the weight of a package and determine the cheapest way to ship that package using Sal's Shippers.
-
 Sal's Shippers has several different options for a customer to ship their package:
-
 
 - Ground Shipping, which is a small flat charge plus a rate based on the weight of your package. 
 Price per Pound: 
@@ -24,7 +23,6 @@ Price per Pound:
 No Flat charge 
 '''
 
-
 # Defining weight of package in pounds
 weight = 4.8
 
@@ -38,10 +36,12 @@ elif weight > 6 and weight <= 10:
 else:
   cost_ground = weight * 4.75 + 20
 print('Ground shipping cost for your ' + str(weight) + 'lb package is: $' + str(cost_ground))
+# Ground shipping cost for your 4.8lb package is: $34.4
 
 # Premium Gound Shipping
 cost_premium_ground = 125
 print('Premium ground shipping cost for your ' + str(weight) + 'lb package is: $' + str(cost_premium_ground))
+# Premium ground shipping cost for your 4.8lb package is: $125
 
 # Drone Shipping. Implementing price per pound cost. See prices above
 if weight <= 2:
@@ -53,6 +53,7 @@ elif weight > 6 and weight <= 10:
 else:
   cost_drone = weight * 14.25
 print('Drone shipping cost for your ' + str(weight) + 'lb package is: $' + str(cost_drone))
+# Drone shipping cost for your 4.8lb package is: $43.199999999999996
 
 # Improvements to implement later:
 # Round numbers to 2 decimals

@@ -1,5 +1,6 @@
 '''
 Len's Slice
+
 You work at Len's Slice, a new pizza joint in the neighborhood. 
 You are going to use your knowledge of Python lists to organize some of your sales data.
 '''
@@ -46,7 +47,8 @@ pizza_and_prices.pop()
 print(pizza_and_prices)
 # [[1, 'cheese'], [2, 'mushrooms'], [2, 'olives'], [2, 'pepperoni'], [3, 'sausage'], [6, 'pineapple']]
 
-# Since there is no longer an "anchovies" pizza, you want to add a new topping called "peppers" to keep your customers excited about new toppings.
+# Since there is no longer an "anchovies" pizza, you want to add a new topping called "peppers" to keep your 
+# customers excited about new toppings.
 pizza_and_prices.insert(4, [2.5, 'peppers'])
 print(pizza_and_prices)
 # [[1, 'cheese'], [2, 'mushrooms'], [2, 'olives'], [2, 'pepperoni'], [2.5, 'peppers'], [3, 'sausage'], [6, 'pineapple']]

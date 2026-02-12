@@ -1,9 +1,14 @@
-# Block Letters
-# ASCII art is a graphic design technique that uses computers for presentation and consists of pictures pieced together from individual characters.
-# This program displays the initials of my name in block letters (7x5) found here 
-# https://content.codecademy.com/courses/learn-cpp/hello-world/block-letters-hint.png
-# I also dip my toes into ASCII art.
+'''
+Block Letters
 
+ASCII art is a graphic design technique that uses computers for presentation and consists 
+of pictures pieced together from individual characters.
+
+This program displays the initials of my name in block letters (7x5) found here 
+https://content.codecademy.com/courses/learn-cpp/hello-world/block-letters-hint.png
+
+I also dip my toes into ASCII art.
+'''
 
 # Printing Initials
 print('  A    TTTTT')
@@ -25,6 +30,7 @@ A   A
 A   A 
 A   A 
 '''
+
 # Ascii N
 Ascii_N = '''
 N   N

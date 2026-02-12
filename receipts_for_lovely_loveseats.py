@@ -1,11 +1,13 @@
-# Receipts for Lovely Loveseats
-# We've decided to pursue the dream of small-business ownership and open up a furniture store called Lovely Loveseats
-# for Neat Suites on Fleet Street. With our newfound knowledge of Python programming, we're going to build a system 
-# to help speed up the process of creating receipts for your customers.
+'''
+Receipts for Lovely Loveseats
 
+We've decided to pursue the dream of small-business ownership and open up a furniture store called Lovely Loveseats
+for Neat Suites on Fleet Street. With our newfound knowledge of Python programming, we're going to build a system 
+to help speed up the process of creating receipts for your customers.
+'''
 
 # Our first item, the Lovely Loveseat, that is the store's name sake
-lovely_loveseat_description ='Lovely Loveseat. Tufted polyester blend on wood. 32 inches high x 40 inches wide x 30 inches deep. Red or white.'
+lovely_loveseat_description = 'Lovely Loveseat. Tufted polyester blend on wood. 32 inches high x 40 inches wide x 30 inches deep. Red or white.'
 # Assigning a price to the Lovely Love Seat
 lovely_loveseat_price = 254.00
 
@@ -48,6 +50,8 @@ print(customer_one_itemisation)
 print('Customer One Total:')
 # Formatting total to only show 2 decimals
 print((f'{customer_one_total:.2f}'))
-
-
-
+# Customer One items:
+# Lovely Loveseat. Tufted polyester blend on wood. 32 inches high x 40 inches wide x 30 inches deep. Red or white.
+# Luxurious Lamp. Glass and iron. 36 inches tall. Brown with cream shade.
+# Customer One Total:
+# 333.09
