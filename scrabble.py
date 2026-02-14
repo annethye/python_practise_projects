@@ -2,7 +2,7 @@
 Scrabble
 
 In this project, you will process some data from a group of friends playing scrabble. 
-You will use dictionaries to organize players, words, and points.
+You will use dictionaries to organise players, words, and points.
 '''
 
 # Two lists of letters and their corresponding points
@@ -39,8 +39,8 @@ print(brownie_points)
 # 15
 
 # Create dictionary with players and a list of words they have played
-player_to_words = {'player1': ['BLUE', 'TENNIS', 'EXIT'], 'wordNerd': ['EARTH', 'EYES', 'MACHINE'], 'Lexi Con': ['ERASER' ,'BELLY' ,'HUSKY'],  
-                   'Prof Reader': ['ZAP', 'COMA', 'PERIOD']}
+player_to_words = {'player1': ['BLUE', 'TENNIS', 'EXIT'], 'wordNerd': ['EARTH', 'EYES', 'MACHINE'], 
+                   'Lexi Con': ['ERASER' ,'BELLY' ,'HUSKY'], 'Prof Reader': ['ZAP', 'COMA', 'PERIOD']}
 print(player_to_words)
 # {'player1': ['BLUE', 'TENNIS', 'EXIT'], 'wordNerd': ['EARTH', 'EYES', 'MACHINE'], 'Lexi Con': ['ERASER', 'BELLY', 'HUSKY'], 
 # 'Prof Reader': ['ZAP', 'COMA', 'PERIOD']}
