@@ -36,11 +36,13 @@ This project uses Python to analyze data for a hair salon. You work with lists r
 
 ### Strings
 #### [Thread Shed](thread_shed.py)
+> A project that cleans and parses Thread Shed's raw daily sales string into structured transaction lists, calculates total revenue, and counts thread colours sold across all purchases.
 
-#### [Coded Correspondence](coded_correspondence.py)
+#### [Coded Correspondence](coded_correspondence.ipynb)
+> A project that implements and tests the classic substitution ciphers Caesar and Vigenère with encode and decode functions, that preserve punctuation while shifting letters, using known offsets and keywords to decrypt Vishal's messages and generate encrypted replies.
 
 ### Modules
-#### [Time Traveller's Toolkit](time_travellers_toolkit.py) - fff
+#### [Time Traveller's Toolkit](time_travellers_toolkit.py) 
 This project guides you through building a Python script that simulates time travel. You create and use a custom module, work with dates and times, perform precise cost calculations, randomly select years and destinations, and generate a personalized time travel message. The project helps practice importing modules, using built-in functions, and formatting output.
 
 
@@ -48,7 +50,8 @@ This project guides you through building a Python script that simulates time tra
 #### [Scrabble](scrabble.py)
 > A project that uses dictionaries to score Scrabble words, track players and their played words, and maintain up-to-date point totals as a game progresses.
 
-#### [Abruptly Goblins](abruptly_goblins.py)
+#### [Abruptly Goblins](abruptly_goblins.ipynb)
+> A project that organises and analyses player availability for the Sorcery Society's tabletop RPG Abruptly Goblins nights, using structured gamer records to count attendance per weekday, automatically select the optimal and fallback game nights with the highest turnout, and generate personalised email invitations for all players able to attend each session.
 
 ### Files
 #### [Hacking the Fender](hacking_the_fender.py)
@@ -56,8 +59,7 @@ This project guides you through building a Python script that simulates time tra
 
 ### Classes
 #### [Basta Fazoolin](basta_fazoolin.py)
-> 
-
+> A project that organises a growing restaurant business by modelling Basta Fazoolin’ with My Heart and Take a’ Arepa using classes for businesses, franchises, and time-based menus, enabling menu availability checks by time, bill calculation from item selections, and reuse of shared menus across multiple locations.
 
 
 # Learn Intermediate Python 3
